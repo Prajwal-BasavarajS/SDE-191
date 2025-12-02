@@ -4,6 +4,6 @@ for i in range(0,n*2):
     if (i>n): 
         star = 2*n-i
     for j in range(0,star):
-        print("*",end = "")
+        print("*",end = " ")
     
     print()
