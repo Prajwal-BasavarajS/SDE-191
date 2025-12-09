@@ -16,6 +16,32 @@ for i in range(n):
     print()
 
 
+a = 5
+
+for i in range(0,a):
+    for j in range(0,n-i-1):
+        print(" ",end=" ")
+
+    for j in range(i+1):
+        print(chr(65+j),end=" ")
+    
+    for j in range(i-1,-1,-1):
+        print(chr(65+j),end = " ")
+    
+    print()
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
